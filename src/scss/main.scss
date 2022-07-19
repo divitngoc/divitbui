@@ -1,0 +1,153 @@
+body {
+    padding: 0;
+    margin: 0;
+    background: #2ea89d;
+}
+html { 
+	scroll-behavior: smooth;
+}
+body, h1, h2, h3, h4, h5, h6, p {
+  font-family: Playfair Display, sans-serif;
+}
+.navbar {
+    background: #268c83;
+}
+.nav-link,
+.navbar-brand {
+    color: #fff;
+    cursor: pointer;
+}
+.nav-link {
+    margin-right: 1em !important;
+}
+.nav-link:hover {
+    color: #000;
+}
+.navbar-collapse {
+    justify-content: flex-end;
+}
+.header {
+	background: #151019;
+}
+.background {
+	position: relative;
+	display: block;
+	top: 0;
+	left: 0;
+	z-index: 0;
+	height: 100%;
+	width: 100%;
+}
+.overlay {
+    position: absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 0;
+    background: rgba(0, 0, 0, 0.6);
+}
+.description {
+    left: 50%;
+    position: absolute;
+    top: 45%;
+    transform: translate(-50%, -55%);
+    text-align: center;
+}
+.description h1 {
+    color: #268c83;
+}
+.description p {
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1.5;
+}
+.features {
+    margin: 4em auto;
+    padding: 1em;
+    position: relative;
+}
+.feature-title {
+    color: #268c83;
+    font-size: 1vw;
+    font-weight: 700;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+.features img {
+    -webkit-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    -moz-box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.4);
+    margin-bottom: 16px;
+	border-radius: 8px;
+}
+.profile {
+	display: inline-block;
+	height: 150px;
+	border-radius: 1%;
+
+  object-fit: cover;
+}
+.me {
+	font-family: 'Open Sans', sans-serif !important;
+	font-size: 1rem;
+	max-width: 40% !important;
+    word-wrap: break-word;
+}
+.features .form-control,
+.features input {
+    border-radius: 0;
+}
+.btn-secondary {
+    background-color: #268c83 !important;
+    border: 1px solid #268c83 !important;
+    color: #fff;
+    margin-top: 20px;
+}
+.features .btn:hover {
+    background-color: #333;
+    border: 1px solid #333;
+}
+.page-footer {
+    background-color: #151019;
+    color: #ccc;
+    padding: 60px 0 30px;
+    display: flex;
+    align-items: left;
+    justify-content: center;
+}
+
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.footer-copyright {
+    color: #666;
+    padding: 40px 0;
+}
+p.footer {
+	font-family: Arial, sans-serif;
+}
+@media (max-width: 575.98px) {
+    .description {
+        left: 0;
+        padding: 0 15px;
+        position: absolute;
+        top: 50%;
+        transform: none;
+        text-align: center;
+    }
+ 
+    .description h1 {
+        font-size: 2em;
+    }
+ 
+    .description p {
+        font-size: 1.2rem;
+    }
+ 
+    .features {
+        margin: 0;
+    }
+}
