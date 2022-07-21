@@ -1,2 +1,2 @@
 # divitbui
-Personal website
+Personal website hosted on firebase with CI/CD
